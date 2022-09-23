@@ -1,0 +1,123 @@
+:root {}
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+
+    outline: none !important;
+}
+
+body {
+
+    /* background-color: #171717; */
+}
+
+/*  Designing Carousel  */
+
+.home-carousel {
+
+    /* box-shadow: 0px 0px 15px grey; */
+
+    /* height: 50vh !important; */
+}
+
+.home-carousel-image {
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.home-carousel-inner {
+    height: 100%;
+}
+
+@media (min-width:1024px) {
+
+
+    .home-carousel {
+
+
+        height: 82vh !important;
+    }
+
+}
+
+
+/* Designing ABout Section */
+
+
+.about {
+
+    /* background-color: #171717; */
+    background-color: #1a1a1a;
+}
+
+
+/*  Designing Services  */
+
+.service-card,
+.compliment-card {
+
+    width: 315px;
+    height: 350px;
+}
+
+/* Designing compliments */
+.compliment-card {
+
+    width: 290px;
+    height: 300px;
+}
+
+
+/* Designing Review -Section */
+
+.review {
+    /* background-color: #171717; */
+    background-color: #1a1a1a;
+}
+
+.review-text {
+
+    width: 85%;
+}
+
+.review-pic {
+
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+
+    border-radius: 50px;
+}
+
+
+/* designing team ssection */
+
+.team-section {
+
+    background-color: #171717;
+}
+
+
+.team-pic,
+.team-pic-mid {
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 200px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.team-pic-mid {
+
+    width: 250px;
+    height: 250px;
+}
