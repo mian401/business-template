@@ -28,11 +28,11 @@
 
     <!-- Designing Navbar Section -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark p-0 sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark p-0 sticky-top px-3">
 
         <div class="container-fluid p-0">
 
-            <a class="navbar-brand text-warning fs-2 ms-3 fw-bold" href="#">WEB-APP DEV</a>
+            <a class="navbar-brand text-warning fs-2 fw-bold" href="#" target="_blank">WEB-APP DEV</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,18 +41,26 @@
 
             <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
 
-                <ul class="navbar-nav w-50 justify-content-evenly fs-5 fw-bold">
+                <ul class="navbar-nav justify-content-evenly fs-5 fw-bold" style="width: 60%;">
 
                     <li class="nav-item ">
-                        <a class="nav-link p-0 text-warning px-4 pt-3 pb-3" href="#">Home</a>
+                        <a class="nav-link p-0 text-warning px-4 pt-3 pb-3" href="#" target="_blank">Home</a>
                     </li>
 
                     <li class="nav-item ">
-                        <a class="nav-link p-0 text-warning px-4 pt-3 pb-3" href="#">Features</a>
+                        <a class="nav-link p-0 text-warning px-4 pt-3 pb-3" href="#about">About</a>
                     </li>
 
                     <li class="nav-item ">
-                        <a class="nav-link p-0 text-warning px-4 pt-3 pb-3" href="#">Pricing</a>
+                        <a class="nav-link p-0 text-warning px-4 pt-3 pb-3" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link p-0 text-warning px-4 pt-3 pb-3" href="#features">Features</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link p-0 text-warning px-4 pt-3 pb-3" href="#contact">Contact</a>
                     </li>
 
                 </ul>
@@ -91,7 +99,7 @@
 
     <!-- About Section -->
 
-    <div class="about my-5 mt-0 container-fluid py-5 m-auto shadowlg">
+    <div id="about" class="about my-5 mt-0 container-fluid py-5 m-auto shadowlg">
 
         <h1 style="width: max-content;" class="text-dark border-bottom border-4 border-warning m-auto text-white pb-1">
             ABOUT
@@ -119,7 +127,7 @@
 
     <!-- Services we offer -->
 
-    <div
+    <div id="services"
         class="services mt-5 container m-auto shadowlg  borderborder-2 border-primary p-0 d-flex align-items-center justify-content-center flex-column">
 
         <h1 style="width: max-content;" class=" text-dark border-bottom border-4 border-warning m-auto mb-5 pb-1">
@@ -137,6 +145,8 @@
                 <span class="text-light fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Laudantium,
                     eaque.</span>
+
+                <button class="btn btn-warning mt-5"> Get Quote</button>
             </div>
 
             <div
@@ -147,6 +157,7 @@
                 <span class="text-light fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Laudantium,
                     eaque.</span>
+                <button class="btn btn-warning mt-5"> Get Quote</button>
             </div>
 
             <div
@@ -157,6 +168,7 @@
                 <span class="text-light fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Laudantium,
                     eaque.</span>
+                <button class="btn btn-warning mt-5"> Get Quote</button>
             </div>
 
 
@@ -176,7 +188,7 @@
 
     <!-- Compliment Section -->
 
-    <div
+    <div id="features"
         class="compliment mt-5 container m-auto shadowlg  borderborder-2 border-primary p-0 d-flex align-items-center justify-content-center flex-column">
 
         <h1 style="width: max-content;" class=" text-dark border-bottom border-4 border-warning m-auto mb-5 pb-1">WHY
@@ -398,7 +410,7 @@
 
     <!-- CONTACT SECTION -->
 
-    <div class="contact container-fluid py-1 mt-5 fle">
+    <div id="contact" class="contact container-fluid py-1 mt-5 fle">
 
         <h1 style="width: max-content;" class=" border-bottom border-4 border-warning m-auto my-5 text-white pb-1">
             CONTACT US

@@ -13,6 +13,8 @@
     font-family: sans-serif;
 
     outline: none !important;
+
+    scroll-behavior: smooth;
 }
 
 body {
@@ -66,8 +68,8 @@ body {
 .service-card,
 .compliment-card {
 
-    width: 315px;
-    height: 350px;
+    width: 325px;
+    height: 400px;
 }
 
 /* Designing compliments */
@@ -144,9 +146,9 @@ body {
 
     background-color: transparent;
 
-    border-top: none !important;
+    /* border-top: none !important;
     border-left: none !important;
-    border-right: none !important;
+    border-right: none !important; */
 }
 
 .form-btn {
