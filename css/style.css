@@ -1,4 +1,8 @@
-:root {}
+:root {
+
+    --section-bg: #1a1a1a;
+    --heading-border: rgb(255, 193, 7)
+}
 
 * {
 
@@ -53,7 +57,7 @@ body {
 .about {
 
     /* background-color: #171717; */
-    background-color: #1a1a1a;
+    background-color: var(--section-bg);
 }
 
 
@@ -78,7 +82,7 @@ body {
 
 .review {
     /* background-color: #171717; */
-    background-color: #1a1a1a;
+    background-color: var(--section-bg);
 }
 
 .review-text {
@@ -100,7 +104,7 @@ body {
 
 .team-section {
 
-    background-color: #171717;
+    background-color: var(--section-bg);
 }
 
 
@@ -120,4 +124,59 @@ body {
 
     width: 250px;
     height: 250px;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+
+    background-color: var(--section-bg);
+}
+
+
+.form-input,
+.form-btn-group {
+
+    width: 380px;
+}
+
+.form-input {
+
+    background-color: transparent;
+
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.form-btn {
+
+    /* width: 125px; */
+}
+
+
+/* designing footer */
+
+.footer {
+
+    background-color: var(--section-bg);
+
+    border-top: 2px solid grey;
+}
+
+.footer-logo {
+
+    width: 250px;
+    height: 250px;
+}
+
+.footer-block {
+
+    /* border: 2px solid red; */
+    width: 250px;
+}
+
+.footer-bottom {
+
+    border-top: 1px solid grey;
 }

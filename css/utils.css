@@ -63,7 +63,7 @@
 
 .navbar {
 
-    background-color: #171717;
+    background-color: var(--section-bg);
     /* background-color: #0d0d0d; */
     /* background-color: #1a1a1a; */
     /* background-color: #000; */
