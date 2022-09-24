@@ -138,48 +138,24 @@ body {
 
 
 .form-input,
-.form-btn-group {
+.form-btn-group,
+.form-input-textarea {
 
-    width: 380px;
+    width: 360px;
 }
 
-.form-input {
+.form-input,
+input {
+    background-color: #121212;
 
-    background-color: transparent;
-
+    /* background-color: transparent; */
+    /* 
     border-top: none !important;
     border-left: none !important;
-    border-right: none !important;
+    border-right: none !important; */
 }
 
 .form-btn {
 
     /* width: 125px; */
-}
-
-
-/* designing footer */
-
-.footer {
-
-    background-color: var(--section-bg);
-
-    border-top: 2px solid grey;
-}
-
-.footer-logo {
-
-    width: 250px;
-    height: 250px;
-}
-
-.footer-block {
-
-    /* border: 2px solid red; */
-    width: 250px;
-}
-
-.footer-bottom {
-
-    border-top: 1px solid grey;
 }

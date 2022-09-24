@@ -1,7 +1,11 @@
 :root {
 
     --section-bg: #1a1a1a;
-    --heading-border: rgb(255, 193, 7)
+    --heading-border: rgb(255, 193, 7);
+
+    --footer-border: #404040;
+
+    --navigation-bg: #121212;
 }
 
 
@@ -71,8 +75,8 @@
 
 .navbar {
 
-    background-color: var(--section-bg);
-    /* background-color: #0d0d0d; */
+    /* background-color: var(--section-bg); */
+    background-color: var(--navigation-bg);
     /* background-color: #1a1a1a; */
     /* background-color: #000; */
 
@@ -113,4 +117,47 @@
         text-align: center;
     }
 
+}
+
+
+
+/* designing footer */
+
+.footer {
+
+    background-color: var(--navigation-bg);
+
+    border-top: 2px solid var(--footer-border);
+}
+
+.footer-logo {
+
+    width: 250px;
+    height: 250px;
+}
+
+.footer-block {
+
+    /* border: 2px solid red; */
+    width: 250px;
+}
+
+.footer-bottom {
+
+    border-top: 1px solid var(--footer-border);
+}
+
+.footer-links {
+
+    cursor: pointer;
+}
+
+.footer-links:hover {
+
+    color: #5353c6 !important;
+}
+
+.footer-links:active {
+
+    color: #333399 !important;
 }

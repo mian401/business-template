@@ -1,0 +1,68 @@
+:root {
+
+    --form-bg: #1a1a1a;
+}
+
+.contact-section {
+
+    background-color: var(--form-bg);
+
+}
+
+
+.contact-form {
+
+    border: 2px solid red;
+    width: 360px;
+}
+
+.form-input-textarea {
+
+    background-color: transparent;
+
+}
+
+
+
+/*HOME  CONTACT SECTION */
+
+.contact {
+
+    background-color: var(--section-bg);
+}
+
+
+.form-input,
+.form-btn-group,
+.form-input-textarea {
+
+    width: 450px;
+}
+
+.form-input,
+.form-input-textarea {
+    background-color: #121212;
+
+    /* background-color: transparent; */
+    /* 
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important; */
+}
+
+.form-btn {
+
+    /* width: 125px; */
+}
+
+@media screen and (max-width:450px) {
+
+
+    .form-input,
+    .form-btn-group,
+    .form-input-textarea {
+
+        width: 375px;
+    }
+
+}
