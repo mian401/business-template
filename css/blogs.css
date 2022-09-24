@@ -1,0 +1,65 @@
+:root {
+
+    --section-bg: #1a1a1a;
+    --heading-border: rgb(255, 193, 7)
+}
+
+
+
+.articles {
+
+    background-color: var(--section-bg);
+
+}
+
+.articles-container {
+
+    /* border: 2px solid greenyellow; */
+}
+
+.article {
+    /* border: 2px solid pink; */
+}
+
+.blog-img {
+
+    width: 320px;
+    height: 320px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-left {
+
+    width: 750px;
+
+}
+
+@media (max-width:450px) {
+
+
+    .blog-left {
+
+        width: 320px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .blog-left p {
+        text-align: center;
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    .blog-left {
+
+        margin-left: -65px;
+    }
+}

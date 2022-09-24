@@ -1,0 +1,38 @@
+:root {
+
+    --section-bg: #171717;
+}
+
+.services-container {
+
+    background-color: #1a1a1a;
+}
+
+.services {
+
+    /* border: 2px solid red; */
+}
+
+.service-card {
+
+    background: #0d0d0d;
+    width: 350px;
+    height: 455px;
+
+    /* border: 2px solid green; */
+
+    box-shadow: 0px 0px 5px #664d00;
+    /* border: 3px solid #997300; */
+
+    border-radius: 5px;
+
+}
+
+@media (max-width:1024px) {
+
+    .service-card {
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
