@@ -1,3 +1,11 @@
+:root {
+
+    --section-bg: #1a1a1a;
+    --heading-border: rgb(255, 193, 7)
+}
+
+
+
 .more-btn {
     border-width: 3px;
 }
